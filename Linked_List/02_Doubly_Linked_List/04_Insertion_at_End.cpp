@@ -27,7 +27,7 @@ void traverse(Node* &head){
     cout << endl;
 }
 
-// INSERTION AT BEGINNING/START/HEAD
+// INSERTION AT END/LAST/TAIL
 void insertAtEnd(Node* &head, Node* &tail, int data){
     //CREATE NODE
     Node *newNode = new Node(data);
